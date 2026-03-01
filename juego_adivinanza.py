@@ -35,6 +35,7 @@ def juego_adivinanza():
             print("ingrese un numero valido del 1 al 100.")
             input("toca enter para seguir.")
 
+#======================================================
 def juego_adivinanzas1():
     numero_secreto = 5
     intentos = 0
@@ -62,6 +63,7 @@ def juego_adivinanzas1():
         except ValueError:
             print("ingrese numero del 1 al 10.")
 
+#======================================================
 def juego_adivinanza2(minimo,maximo):
 
     numero_secreto = 5
